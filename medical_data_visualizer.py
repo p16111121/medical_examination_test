@@ -6,8 +6,8 @@ import numpy as np
 # Import the data from medical_examination.csv and assign it to the df variable
 df = pd.read_csv('medical_examination.csv')
 
-# 2
-df['overweight'] = None
+# Create the overweight column in the df variable
+df['overweight'] = (df['weight']/ ((df['height']/100) ** 2) > 25).astype(int)
 
 # 3
 
