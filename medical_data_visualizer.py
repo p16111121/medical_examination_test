@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Import the data from medical_examination.csv and assign it to the df variable..
+# Import the data from medical_examination.csv and assign it to the df variable.....
 df = pd.read_csv('medical_examination.csv')
 
 # 2
