@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 1
-df = None
+# Import the data from medical_examination.csv and assign it to the df variable
+df = pd.read_csv('medical_examination.csv')
 
 # 2
 df['overweight'] = None
